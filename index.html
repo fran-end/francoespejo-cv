@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franco Espejo</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
     <link rel="stylesheet" href="css/main.css" class="css">
     <link rel="stylesheet" href="css/navbar.css" class="css">
     <link rel="stylesheet" href="css/profile.css">
@@ -12,6 +18,7 @@
     <link rel="stylesheet" href="css/education.css">
     <link rel="stylesheet" href="css/contact.css">
     <script defer src="js/app.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,9 +56,9 @@
             <p class="profile-details">
                 Un joven apasionado por el desarrollo de software, que busca explotar sus habilidades en nuevos proyectos.
             </p>
-            <button class="profile-btn">
+            <a class="profile-btn" href="/franco cv.pdf" download>
                 Descargar cv
-            </button>
+            </a>
         </div>
 
         <span class="profile-img-section">
@@ -116,7 +123,7 @@
             <p class="contact-text-msj">Deje su mensaje y con gusto le responderé.</p>
         </div>
     </div>
-    <form class="contact-form">
+    <form class="contact-form" name="contact" netlify>
         <div class="contact-form-group">
             <label for="name">Nombre</label>
             <input required type="text" name="name" id="name">
