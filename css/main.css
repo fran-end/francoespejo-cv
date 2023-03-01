@@ -1,9 +1,9 @@
 :root {
     --theme-color:#E7ECED;
-    --primary-color: #26304D;
+    --primary-color: #475785  ;
     --secondary-color: #f7c331;
     --text-color-inverse: #E7ECED;
-    --text-color: #26304D;
+    --text-color: #475785  ;
     --navbar-shallow-color: #CBD0D1;
     --menu-mobile-background-color: #3a4460;
 }
