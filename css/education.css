@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
 .education-section{
     display: flex;
@@ -24,8 +24,8 @@
 }
 
 .education-title{
-    font-family: 'Exo 2', sans-serif;
-    font-size: 30px;
+    font-family: 'Iceland', cursive;
+    font-size: 40px;
     text-transform: uppercase;
     margin: 25px;
 }
@@ -57,7 +57,7 @@
 @media (min-width: 950px){
 
     .education-title{
-        font-size: 50px;
+        font-size: 60px;
         text-transform: uppercase;
         font-weight: bold;
         margin: 25px;
