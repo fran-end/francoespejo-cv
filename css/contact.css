@@ -66,7 +66,7 @@
     width: 100%;
     height: 50px;
 
-    background-color: #1C2637;
+    background-color: var(--primary-color-inverse);
     border-radius: 7px;
     color: var(--text-color-inverse);
     font-weight: bold;
